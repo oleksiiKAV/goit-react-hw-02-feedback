@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { Statistics, FeedbackOptions, Section } from '../components';
 import Notification from './Notification/Notification';
-
+// new
 class App extends Component {
   state = {
     good: 0,
