@@ -16,7 +16,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   );
 };
 
-FeedbackOptions.protoType = {
+FeedbackOptions.protoTypes = {
   options: PT.objectOf(PT.number).isRequired,
   onLeaveFeedback: PT.func.isRequired,
 };
